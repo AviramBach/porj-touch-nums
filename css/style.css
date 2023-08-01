@@ -1,0 +1,76 @@
+body{
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h3 {
+    text-align: justify;
+    background-color: rgb(49, 129, 160);
+    border-color: black;
+    border-style: groove;
+    width: 100px;  
+    
+    display:block;
+    margin-bottom: 30px;
+
+}
+
+.timer{
+    text-align: center;
+    background-color: rgb(49, 129, 160);
+    border-color: black;
+    border-style: groove;
+    width: 100px;
+
+}
+
+table {
+    margin: 0 auto;
+}
+
+td:hover{
+    color:rgb(255, 0, 0);
+}
+
+table, td {
+    border: 1px solid black;
+    font-size: larger;
+    cursor: pointer;
+    
+}
+
+.board td {
+    background-color: beige;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+
+button {
+    
+    height: 40;
+    width: 70;
+    padding: 6px;
+    font-style: italic;
+    font-size: small;
+    color: rgb(228, 223, 223);
+    background-color: rgb(49, 129, 160);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px; 
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+}
+
+
+button:hover {
+    color:rgb(242, 236, 116);
+    cursor: pointer;
+}
