@@ -106,7 +106,7 @@ function onCellClicked(elCell) {
         if (+elCell.innerText === 1) {
             startTimer()
 
-            var gameAudio = new Audio('sound/1.mp3');
+            var gameAudio = new Audio('1.mp3');
             gameAudio.play();
         }
         renderNextNumber()
